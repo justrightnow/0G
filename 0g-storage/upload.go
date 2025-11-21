@@ -18,7 +18,7 @@ import (
 func main() {
 
 	// Create Web3 client for blockchain interactions
-	w3client := blockchain.MustNewWeb3("https://evmrpc-testnet.0g.ai/", "123qbc")
+	w3client := blockchain.MustNewWeb3("https://evmrpc-testnet.0g.ai/", "66d515122fd6317e19859dfcfc30bea91629d14a312615bc71f448cd1bb50b1b")
 	defer w3client.Close()
 
 	// Create indexer client for node management
@@ -47,7 +47,7 @@ func main() {
 	}
 	
 	// 打开要上传的文件
-	file, err := core.Open("./xxx")
+	file, err := core.Open("./main.go")
 	if err != nil {
 		log.Fatalf("Failed to open file: %v", err)
 	}

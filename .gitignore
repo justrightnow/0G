@@ -1,0 +1,7 @@
+./.env.template
+.DS_Store
+node_modules/
+dist/
+# .gitignore
+.vscode/
+.DS_Store
